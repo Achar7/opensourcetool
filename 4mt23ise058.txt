@@ -1,0 +1,37 @@
+3a)what is the git status used for
+git status shows the current state of your working directory and staging area, including untracked files, modified files, and staged changes.
+
+3b)which are the commonds used to initialize
+git init
+
+3c)How will you get the file of forign repository into your folder
+git clone
+
+3d)if you forget your branch name how will you recover it
+bash
+git branch
+
+bash
+git status
+vbnet
+Copy code
+On branch main
+nothing to commit, working tree clean
+
+
+bash
+git rev-parse --abbrev-ref HEAD
+
+3e)write a commond to commite your file
+
+git add <file_name>
+git add .
+Commit the changes:
+
+bash
+
+git commit -m "Your commit message"
+bash
+git commit -m "Add new feature to user profile page"
+
+
